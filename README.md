@@ -105,8 +105,6 @@
     </div>
 </section>
 
-</body>
-</html>
 /* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -200,4 +198,7 @@ nav ul li a { margin-left: 20px; text-decoration: none; color: #333; font-weight
     font-weight: bold;
     color: #007bff;
 }
+</body>
+</html>
+
 
