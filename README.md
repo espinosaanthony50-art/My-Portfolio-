@@ -1,41 +1,67 @@
-# Hi, I'm [Your Name] 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-### 🚀 Software Engineer | [Specific Niche, e.g., Backend / Mobile / Data]
-I am a results-driven developer focused on building scalable applications and clean code. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
+<header>
+    <nav>
+        <h1>YourName</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-- 🔭 I’m currently working on **[Project Name/Current Job]**
-- 🌱 I’m currently learning **[New Tech, e.g., Go, Kubernetes, or AI]**
-- 💬 Ask me about **[Core Skills, e.g., React, Python, Architecture]**
-- 📫 Reach me at: **[Your Email]**
+<section class="hero">
+    <div class="hero-text">
+        <h2>Hello, I'm <span>Your Name</span></h2>
+        <p>A passionate developer building modern web experiences.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
 
----
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a developer specializing in front-end and back-end technologies.
+        I enjoy building clean, user-friendly applications.
+    </p>
+</section>
 
-### 🛠 My Tech Stack
-<p align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
+<section id="projects">
+    <h2>Projects</h2>
 
----
+    <div class="project-card">
+        <h3>Project One</h3>
+        <p>Short description of your project.</p>
+        <a href="#">View on GitHub</a>
+    </div>
 
-### 📊 GitHub Activity
-| Stats | Languages |
-| :--- | :--- |
-| ![Stats](https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME]&show_icons=true&theme=dark&hide_border=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME]&layout=compact&theme=dark&hide_border=true) |
+    <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Short description of your project.</p>
+        <a href="#">View on GitHub</a>
+    </div>
 
----
+</section>
 
-### 🌟 Featured Projects
-> **[Project Title]**
-> *Brief description: A high-performance API built to handle 10k requests/sec.*
-> - **Stack:** [Tech used]
-> - [Link to Repo] | [Link to Live Demo]
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>GitHub: github.com/yourusername</p>
+</section>
 
----
+<footer>
+    <p>© 2026 Your Name</p>
+</footer>
 
-### 🤝 Connect with me
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/[YOUR_PROFILE])
-[<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />](https://yourportfolio.com)
+<script src="script.js"></script>
+</body>
+</html>
