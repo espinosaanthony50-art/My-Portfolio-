@@ -38,10 +38,12 @@
         <h2>About Me</h2>
         <div class="about-content">
             <p>
-                I am a dedicated **Information Technology student** with a strong foundation in computer science principles and a passion for modern web development. My academic journey has provided me with a deep understanding of data structures, networking, and database management.
+                I am an **Information Technology student** passionate about building clean, functional web applications. 
+                While my studies focus on systems and networking, my heart is in **Full-Stack Development**.
             </p>
             <p>
-                Beyond the classroom, I spend my time building projects that solve everyday problems. I am particularly interested in the **MERN stack** (MongoDB, Express, React, Node.js) and am constantly looking for opportunities to apply my skills in collaborative environments. My goal is to transition into a professional role where I can contribute to impactful software solutions.
+                I specialize in the **MERN stack** and enjoy turning complex problems into simple, user-friendly solutions. 
+                I’m currently looking for opportunities to contribute to professional projects and grow as a developer.
             </p>
         </div>
     </div>
@@ -54,17 +56,17 @@
             <div class="skill-card">
                 <i class="fas fa-code"></i>
                 <h3>Frontend</h3>
-                <p>HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS</p>
+                <p>HTML5, CSS3, JavaScript, React.js, Tailwind</p>
             </div>
             <div class="skill-card">
                 <i class="fas fa-database"></i>
-                <h3>Backend & DB</h3>
-                <p>Node.js, Python, SQL (MySQL/PostgreSQL), MongoDB</p>
+                <h3>Backend</h3>
+                <p>Node.js, Python, MySQL, MongoDB</p>
             </div>
             <div class="skill-card">
                 <i class="fas fa-tools"></i>
-                <h3>Tools & Others</h3>
-                <p>Git/GitHub, Docker, Linux, UI/UX Design (Figma)</p>
+                <h3>Tools</h3>
+                <p>Git, Docker, Linux, Figma</p>
             </div>
         </div>
     </div>
@@ -75,25 +77,20 @@
         <h2>Featured Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <div class="project-info">
-                    <h3>Academic Management System</h3>
-                    <p>A full-stack application designed to help students track grades and assignments. Built as a capstone project.</p>
-                    <span class="tags">PHP • MySQL • Bootstrap</span>
-                    <div class="project-links">
-                        <a href="#"><i class="fab fa-github"></i> Code</a>
-                        <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
-                    </div>
+                <h3>Academic Management System</h3>
+                <p>A full-stack app for tracking grades and assignments. Built as a capstone project.</p>
+                <span class="tags">PHP • MySQL • Bootstrap</span>
+                <div class="project-links">
+                    <a href="#"><i class="fab fa-github"></i> Code</a>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="project-info">
-                    <h3>Personal Finance Tracker</h3>
-                    <p>A minimalist web app to manage daily expenses and visualize spending habits through charts.</p>
-                    <span class="tags">React • Firebase • Chart.js</span>
-                    <div class="project-links">
-                        <a href="#"><i class="fab fa-github"></i> Code</a>
-                    </div>
+                <h3>Finance Tracker</h3>
+                <p>A minimalist web app to manage expenses and visualize spending habits.</p>
+                <span class="tags">React • Firebase • Chart.js</span>
+                <div class="project-links">
+                    <a href="#"><i class="fab fa-github"></i> Code</a>
                 </div>
             </div>
         </div>
@@ -101,31 +98,12 @@
 </section>
 
 <section id="contact">
-    <div class="
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    padding: 2rem 0;
-}
+    <div class="container">
+        <h2>Let's Connect</h2>
+        <p>Interested in working together? Shoot me an email!</p>
+        <a href="mailto:your@email.com" class="btn">Email Me</a>
+    </div>
+</section>
 
-.skill-card {
-    background: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease;
-    border: 1px solid #ddd;
-}
-
-.skill-card i {
-    font-size: 2.5rem;
-    color: #007bff;
-    margin-bottom: 1rem;
-}
-
-.skill-card:hover {
-    transform: translateY(-5px);
-}
-
-    
+</body>
+</html>
