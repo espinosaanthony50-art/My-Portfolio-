@@ -1,58 +1,41 @@
-<div align="center">
-  <h1>Hi, I'm <a href="https://yourwebsite.com">Your Name</a> 👋</h1>
-  <p align="center">
-    <strong>Software Engineer | Open Source Enthusiast | Tech Blogger</strong>
-  </p>
+# Hi, I'm [Your Name] 👋
 
-  <p>
-    <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-  </p>
-</div>
+### 🚀 Software Engineer | [Specific Niche, e.g., Backend / Mobile / Data]
+I am a results-driven developer focused on building scalable applications and clean code. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
 
-<hr />
+- 🔭 I’m currently working on **[Project Name/Current Job]**
+- 🌱 I’m currently learning **[New Tech, e.g., Go, Kubernetes, or AI]**
+- 💬 Ask me about **[Core Skills, e.g., React, Python, Architecture]**
+- 📫 Reach me at: **[Your Email]**
 
-## 🧑‍💻 Summary
-A results-driven developer with expertise in building scalable web applications and distributed systems. I specialize in turning complex problems into elegant, efficient code. 
+---
 
-- 🔭 **Current Focus:** Microservices architecture and Cloud-native apps.
-- 🌱 **Learning:** Rust and WebAssembly.
-- ⚡ **Goal:** Contributing to high-impact open-source projects.
+### 🛠 My Tech Stack
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
 
-<hr />
+---
 
-## 🛠 Skills & Technologies
+### 📊 GitHub Activity
+| Stats | Languages |
+| :--- | :--- |
+| ![Stats](https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME]&show_icons=true&theme=dark&hide_border=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME]&layout=compact&theme=dark&hide_border=true) |
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Frontend</h4>
-      <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" />
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-    </td>
-    <td width="50%" valign="top">
-      <h4>Backend</h4>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-    </td>
-  </tr>
-</table>
+---
 
-<hr />
+### 🌟 Featured Projects
+> **[Project Title]**
+> *Brief description: A high-performance API built to handle 10k requests/sec.*
+> - **Stack:** [Tech used]
+> - [Link to Repo] | [Link to Live Demo]
 
-## 📈 GitHub Analytics
+---
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=[YOUR-USERNAME]&show_icons=true&theme=vibrant&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR-USERNAME]&layout=compact&theme=vibrant" />
-</div>
-
-<hr />
-
-<div align="center">
-  <sub>Built with ❤️ by [Your Name]. Last updated: April 2026.</sub>
-</div>
-# My-Portfolio-
+### 🤝 Connect with me
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/[YOUR_PROFILE])
+[<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />](https://yourportfolio.com)
