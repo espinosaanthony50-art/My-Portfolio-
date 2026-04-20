@@ -107,3 +107,97 @@
 
 </body>
 </html>
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem;
+}
+
+section { padding: 4rem 0; }
+h2 { text-align: center; margin-bottom: 2rem; }
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul { display: flex; list-style: none; }
+nav ul li a { margin-left: 20px; text-decoration: none; color: #333; font-weight: bold; }
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 6rem 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn.secondary { background: #333; }
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.skill-card {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.skill-card i {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.skill-card:hover { transform: translateY(-5px); }
+
+/* Project Cards */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.tags {
+    display: block;
+    margin: 10px 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
