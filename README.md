@@ -8,11 +8,11 @@
   
   <style>
     :root {
-      --bg: #020617; /* Deep Obsidian */
+      --bg: #020617; 
       --card-bg: rgba(15, 23, 42, 0.7);
-      --accent: #10b981; /* Electric Emerald */
+      --accent: #10b981; 
       --accent-glow: rgba(16, 185, 129, 0.3);
-      --text-main: #f0fdf4; /* Mint-tinted white */
+      --text-main: #f0fdf4; 
       --text-dim: #94a3b8;
     }
 
@@ -24,10 +24,10 @@
       padding: 0;
       overflow-x: hidden;
       line-height: 1.6;
-      /* Emerald mesh gradient */
       background-image: 
         radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.1) 0px, transparent 50%),
         radial-gradient(at 100% 100%, rgba(52, 211, 153, 0.1) 0px, transparent 50%);
+      background-attachment: fixed;
     }
 
     .blob {
@@ -56,21 +56,21 @@
 
     header {
       text-align: center;
-      padding: 100px 20px 40px;
+      padding: 80px 20px 40px;
     }
 
     header h1 {
-      font-size: clamp(3rem, 10vw, 4.5rem);
+      font-size: clamp(2.5rem, 8vw, 4rem);
       margin: 0;
       background: linear-gradient(135deg, #fff 40%, var(--accent));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      letter-spacing: -2px;
+      letter-spacing: -1px;
       font-weight: 700;
     }
 
     header p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       color: var(--text-dim);
       margin-top: 10px;
     }
@@ -78,195 +78,185 @@
     nav {
       display: flex;
       justify-content: center;
-      gap: 10px;
-      padding: 10px;
-      background: rgba(2, 6, 23, 0.6);
-      backdrop-filter: blur(25px);
-      -webkit-backdrop-filter: blur(25px);
+      flex-wrap: wrap;
+      gap: 5px;
+      padding: 8px;
+      background: rgba(2, 6, 23, 0.7);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
       position: sticky;
-      top: 20px;
+      top: 15px;
       width: fit-content;
       margin: 0 auto;
       border-radius: 100px;
       z-index: 1000;
       border: 1px solid rgba(16, 185, 129, 0.2);
-      box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     }
 
     nav a {
       text-decoration: none;
       color: var(--text-dim);
       font-weight: 500;
-      padding: 8px 24px;
+      padding: 8px 18px;
       border-radius: 100px;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       transition: 0.3s;
     }
 
     nav a:hover, nav a.active {
       color: #fff;
       background: rgba(16, 185, 129, 0.2);
-      box-shadow: 0 0 20px var(--accent-glow);
     }
 
     section {
       display: none;
-      max-width: 900px;
-      margin: 60px auto;
-      padding: 50px 40px;
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 40px;
       background: var(--card-bg);
-      backdrop-filter: blur(15px);
-      border-radius: 32px;
+      backdrop-filter: blur(12px);
+      border-radius: 28px;
       border: 1px solid rgba(16, 185, 129, 0.1);
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
     }
 
     section.active {
       display: block;
-      animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation: slideUp 0.5s ease-out forwards;
     }
 
     @keyframes slideUp {
-      from { opacity: 0; transform: translateY(40px); }
+      from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
     h2 {
-      font-size: 2.2rem;
-      margin-bottom: 30px;
-      border-left: 5px solid var(--accent);
-      padding-left: 20px;
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+      border-left: 4px solid var(--accent);
+      padding-left: 15px;
       color: var(--accent);
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
     }
 
     .item-card {
       background: rgba(255, 255, 255, 0.02);
-      padding: 25px;
-      border-radius: 24px;
+      padding: 20px;
+      border-radius: 20px;
       border: 1px solid rgba(255, 255, 255, 0.05);
-      transition: all 0.4s ease;
+      transition: 0.3s;
     }
 
     .item-card:hover {
-      transform: translateY(-10px);
+      transform: translateY(-5px);
       border-color: var(--accent);
       background: rgba(16, 185, 129, 0.05);
-      box-shadow: 0 10px 30px rgba(16, 185, 129, 0.1);
     }
 
     .project-thumb {
       width: 100%;
-      height: 200px;
+      height: 180px;
       object-fit: cover;
-      border-radius: 16px;
-      margin-bottom: 20px;
+      border-radius: 14px;
+      margin-bottom: 15px;
       border: 1px solid rgba(16, 185, 129, 0.2);
     }
 
     .file-link {
       display: inline-block;
-      margin-top: 15px;
+      margin-top: 10px;
       color: var(--accent);
       text-decoration: none;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1px;
       border: 1px solid var(--accent);
-      padding: 8px 20px;
-      border-radius: 10px;
+      padding: 6px 16px;
+      border-radius: 8px;
       transition: 0.3s;
     }
 
     .file-link:hover {
       background: var(--accent);
-      color: var(--bg);
+      color: #000;
     }
 
     .contact-links a {
       display: block;
-      margin-bottom: 15px;
+      margin-bottom: 12px;
       color: var(--accent);
       text-decoration: none;
-      font-size: 1.1rem;
+      font-size: 1rem;
       transition: 0.2s;
     }
 
     .contact-links a:hover {
-      transform: translateX(10px);
-      text-shadow: 0 0 15px var(--accent);
+      padding-left: 8px;
     }
 
     .chatbot {
       position: fixed;
-      bottom: 25px;
-      right: 25px;
-      width: 300px;
-      background: rgba(2, 6, 23, 0.9);
-      backdrop-filter: blur(15px);
-      border-radius: 20px;
-      border: 1px solid rgba(16, 185, 129, 0.4);
+      bottom: 20px;
+      right: 20px;
+      width: 280px;
+      background: rgba(2, 6, 23, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 18px;
+      border: 1px solid var(--accent);
       overflow: hidden;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
       z-index: 2000;
     }
 
     .chat-header {
       background: var(--accent);
       color: #000;
-      padding: 12px;
+      padding: 10px;
       font-weight: bold;
       text-align: center;
-      letter-spacing: 1px;
+      font-size: 0.8rem;
     }
 
     .chat-body {
-      height: 250px;
-      padding: 15px;
+      height: 200px;
+      padding: 12px;
       overflow-y: auto;
-      font-size: 0.85rem;
-      background: rgba(2, 6, 23, 0.5);
+      font-size: 0.8rem;
     }
 
     #chatInput {
       width: 100%;
-      background: rgba(15, 23, 42, 1);
+      background: #0f172a;
       border: none;
       border-top: 1px solid rgba(16, 185, 129, 0.2);
-      padding: 15px;
+      padding: 12px;
       color: white;
       outline: none;
     }
 
     .explore-button {
       display: inline-block;
-      margin-top: 20px;
-      padding: 14px 40px;
+      margin-top: 15px;
+      padding: 12px 30px;
       background: var(--accent);
       color: #000;
       border-radius: 50px;
       text-decoration: none;
       font-weight: 700;
       transition: 0.3s;
-      box-shadow: 0 10px 20px rgba(16, 185, 129, 0.2);
-    }
-
-    .explore-button:hover {
-      box-shadow: 0 0 30px var(--accent);
-      transform: translateY(-2px);
     }
 
     footer {
       text-align: center;
-      padding: 60px 20px;
+      padding: 40px 20px;
       color: var(--text-dim);
-      font-size: 0.85rem;
+      font-size: 0.8rem;
     }
   </style>
 </head>
@@ -297,7 +287,7 @@
   <section id="about">
     <h2>Biography</h2>
     <p>Passionate about the intersection of technology and human experience. Currently pursuing my IT degree with a focus on full-stack development.</p>
-    <img src="https://via.placeholder.com/600x300/0f172a/10b981?text=Future+Tech+Vision" alt="Tech Background" style="width:100%; border-radius: 20px; margin-top:20px; border: 1px solid rgba(16,185,129,0.2);">
+    <img src="https://via.placeholder.com/600x300/0f172a/10b981?text=Future+Tech+Vision" alt="Tech Vision" style="width:100%; border-radius: 15px; margin-top:20px; border: 1px solid rgba(16,185,129,0.2);">
   </section>
 
   <section id="projects">
@@ -313,7 +303,7 @@
         <img src="project2.png" alt="Logic Engine" class="project-thumb">
         <h3>Logic Engine</h3>
         <p>Custom JavaScript tools to handle complex data workflows.</p>
-        <a href="logic-engine.zip" download class="file-link">Download Files</a>
+        <a href="logic-engine.zip" download class="file-link">Get Files</a>
       </div>
     </div>
   </section>
@@ -340,22 +330,22 @@
   <section id="contact">
     <h2>Let's Connect</h2>
     <div class="contact-links">
-      <a href="mailto:espinosaanthony50@gmail.com">📧 espinosaanthony50@gmail.com</a>
-      <a href="https://www.facebook.com/share/1AyUQ6gKmh/" target="_blank">👤 Anthony Espinosa</a>
-      <a href="https://www.instagram.com/toni_2high?igsh=MXFxcXVwc2Y5bXRpeQ==" target="_blank">📸 @toni_2high</a>
+      <a href="mailto:espinosaanthony50@gmail.com">📧 Email Me</a>
+      <a href="https://www.facebook.com/share/1AyUQ6gKmh/" target="_blank">👤 Facebook Profile</a>
+      <a href="https://www.instagram.com/toni_2high?igsh=MXFxcXVwc2Y5bXRpeQ==" target="_blank">📸 Instagram</a>
     </div>
   </section>
 
   <div class="chatbot">
     <div class="chat-header">SYSTEM ASSISTANT</div>
     <div class="chat-body" id="chatBody">
-      <p><span style="color:var(--accent)">[Bot]:</span> System online. How can I assist you today?</p>
+      <p><span style="color:var(--accent)">[Bot]:</span> Online. How can I help?</p>
     </div>
-    <input type="text" id="chatInput" placeholder="Ask a question..." onkeypress="handleChat(event)">
+    <input type="text" id="chatInput" placeholder="Enter query..." onkeypress="handleChat(event)">
   </div>
 
   <footer>
-    <p>&copy; 2026 Anthony Espinosa // Built with Precision & Emerald Code.</p>
+    <p>&copy; 2026 Anthony Espinosa // Built for the Emerald Web.</p>
   </footer>
 
   <script>
@@ -368,7 +358,6 @@
         target.classList.add('active');
         const activeLink = document.querySelector(`nav a[href="#${sectionId}"]`);
         if (activeLink) activeLink.classList.add('active');
-        window.history.pushState(null, null, `#${sectionId}`);
       }
     }
 
@@ -380,13 +369,13 @@
 
         if (val) {
           chatBody.innerHTML += `<p><span style="color:#fff">[You]:</span> ${val}</p>`;
-          let response = "Message received. Anthony will get back to you soon.";
-          if(val.toLowerCase().includes("skill")) response = "Anthony is skilled in HTML, Java, and Figma UI design.";
+          let response = "Message sent. Anthony will reply shortly.";
+          if(val.toLowerCase().includes("skill")) response = "Skills: HTML, Java, and Figma.";
           
           setTimeout(() => {
             chatBody.innerHTML += `<p><span style="color:var(--accent)">[Bot]:</span> ${response}</p>`;
             chatBody.scrollTop = chatBody.scrollHeight;
-          }, 500);
+          }, 400);
           input.value = "";
         }
       }
@@ -399,6 +388,3 @@
   </script>
 </body>
 </html>
-
-
-
